@@ -2,7 +2,7 @@
 ## Overview
 This is an archive of scripts necessary to reproduce the experiments detailed in our manuscript, submitted to _Geoscientific Model Development_ under the title  "Tracking water masses using passive-tracer transport in NEMO v3.4 with NEMOTAM: application to North Atlantic Deep Water and North Atlantic Subtropical Mode Water"
 
-Our configuration is exactly as preserved at [DOI: 10.5281/zenodo.3459314](https://doi.org/10.5281/zenodo.3459314). It was compiled with the following keys:
+Our configuration is exactly as preserved at [DOI: 10.5281/zenodo.3459314](https://doi.org/10.5281/zenodo.3459314). The full model, along with the forcing and input files used in our experiments is available at [DOI: 10.5281/zenodo.1471702](https://doi.org/10.5281/zenodo.1471702) (file ORCA2_LIM_v3.4.tar). It was compiled with the following keys:
 
 `key_trabbl` `key_orca_r2` `key_lim2` `key_dynspg_flt` `key_diaeiv` `key_ldfslp` `key_traldf_c2d` `key_traldf_eiv` `key_dynldf_c3d` `key_zdftke` `key_zdftmx`  `key_mpp_mpi`  `key_mpp_rep` `key_nosignedzero` `key_tam` `key_diainstant`
 
