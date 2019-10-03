@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ORCA2INPUT_dir=/<PATH>/
-BLD_dir       =/<PATH>/dev_v3_4_STABLE_2012/NEMOGCM/CONFIG/TL_PASSIVE/BLD
+BLD_dir=/<PATH>/NEMO/dev_v3_4_STABLE_2012/NEMOGCM/CONFIG/TL_PASSIVE/BLD/bin
 
 ln -s ${ORCA2INPUT_dir}/ahmcoef .
 ln -s ${ORCA2INPUT_dir}/bathy_level.nc .
@@ -23,6 +23,6 @@ ln -s ${ORCA2INPUT_dir}/t_10.15JUNE2009_orca2.nc .
 ln -s ${ORCA2INPUT_dir}/u_10.15JUNE2009_orca2.nc .
 ln -s ${ORCA2INPUT_dir}/v_10.15JUNE2009_orca2.nc
 
-ln -s ${BLD_DIR}/nemo.exe .
-ln -s ${BLD_DIR}/nemo_tam.exe .
+ln -s ${BLD_dir}/nemo.exe .
+ln -s ${BLD_dir}/nemo_tam.exe .
 
